@@ -23,7 +23,7 @@
                      &trans &trans &trans   &trans &trans &trans
             >;
         };
-        extra_layer {
+        extra_layer2 {
             display-name = "Extra2";
             bindings = <
 &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
