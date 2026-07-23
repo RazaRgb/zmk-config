@@ -32,5 +32,14 @@
                      &trans &trans &trans   &trans &trans &trans
             >;
         };
+        extra_layer3 {
+            status = "reserved";
+        };
+        extra_layer4 {
+            status = "reserved";
+        };
+        extra_layer5 {
+            status = "reserved";
+        };
     };
 };
