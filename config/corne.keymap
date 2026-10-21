@@ -43,3 +43,11 @@
         };
     };
 };
+&kscan0 {
+    row-gpios
+        = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Pin 104 (P1.04) - Row 0
+        , <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Pin 106 (P1.06) - Row 1
+        , <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Pin 100 (P1.00) - Row 2
+        , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Pin 011 (P0.11) - Row 3
+        ;
+};
